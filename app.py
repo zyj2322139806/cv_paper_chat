@@ -1,3 +1,6 @@
+import commands
+print(commands.getoutput('pip install langchain==0.0.292'))
+
 
 from langchain.vectorstores import Chroma
 from langchain.embeddings.huggingface import HuggingFaceEmbeddings
